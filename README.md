@@ -1,2 +1,2 @@
-jacobshack-presentation
+hackerschool-presentation
 =======================
