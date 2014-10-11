@@ -57,6 +57,9 @@ module.exports = (grunt) ->
         coffeelint:
 
             options:
+                max_line_length:
+                    value: 100
+                    level: 'warn'
                 indentation:
                     value: 4
 
@@ -99,7 +102,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:dkundel/jacobshack-presentation.git'
+                    remote: 'git@github.com:dkundel/hackerschool-presentation.git'
                     branch: 'gh-pages'
         
 
